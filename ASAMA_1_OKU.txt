@@ -1,0 +1,14 @@
+KİŞİSEL HEKİMİM 3.0 — AŞAMA 1
+
+Bu sürümde güncellenen ekranlar:
+- Gerçek HTML kartlarından oluşan ana giriş ekranı (tek Hasta Girişi / Hekim Girişi)
+- Yeni logo ve hasta / hekim giriş-kayıt ekranları
+- Daha önce onaylanmış AI Klinik Asistanım sohbet / belge / kaynaklar düzeni
+- Var olan vaka bağlantısı, mesaj kaydı, belge yükleme işlevleri korunur
+
+Kurulum: UYGULAMAYI_AC.bat dosyasını Windows bilgisayarında çalıştır. Python 3 gereklidir.
+Önceden açık uygulamanın CMD penceresini kapat, eski klasörle karıştırma.
+Örnek hesaplar: hasta@demo.local / hekim@demo.local ; parola: Demo12345!
+
+Bu sürüm gerçek tıbbi AI, hekim kimlik doğrulaması, klinik DICOM segmentasyonu veya güvenli sağlık verisi sistemi içermez.
+Gerçek hasta verisi girmeyin. Mevcut veritabanınızı aktaracaksanız eski demo.db dosyanızı önce yedekleyin.

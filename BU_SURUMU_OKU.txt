@@ -1,0 +1,10 @@
+KİŞİSEL HEKİMİM 3.0 - GİRİŞ DÜZELTMESİ
+
+1. ZIP dosyasını TAMAMEN yeni bir klasöre çıkarın. ZIP içinden .bat çalıştırmayın.
+2. UYGULAMAYI_AC.bat dosyasını çalıştırın.
+3. Python 3 gerekebilir (python.org).
+4. Eski sunucu 8765 portundaysa bu sürüm otomatik başka port bulur; tarayıcıda açılan YENİ sekmeyi kullanın.
+5. Ana sayfa artık iki sütunlu Hekim/Hasta girişidir; üst sekmeden rol değiştirin.
+6. Demo hesapları: hekim@demo.local ve hasta@demo.local; şifre: Demo12345!
+7. Sadece kurgusal veriler kullanın.
+8. Uygulama açılmazsa terminaldeki [HATA] satırını iletin.

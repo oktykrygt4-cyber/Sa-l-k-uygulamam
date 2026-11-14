@@ -1,0 +1,15 @@
+KİŞİSEL HEKİMİM 3.0 — AŞAMA 2
+
+Aşama 1 uygulamasındaki giriş, hasta paneli ve AI sohbeti korunmuştur.
+
+HEKİM -> Yeni Vaka / Dosya:
+1. Vaka Bilgileri (uzmanlık, değerlendirme türü, yaş, şikayet, öykü, ilaçlar ve klinik soru)
+2. Görüntüleme (dosya ekle, belgelere bak, renkli katman tercihleri)
+3. AI Analiz Önizleme (gerçek klinik analiz değildir)
+4. Simülasyon (gerçek 3D model değildir)
+
+İlk adımda vaka kaydedilir; kalan adımlardan geri dönüp kayıt düzenlenebilir.
+Yalnızca deneme verileri kullanın. Gerçek hasta kayıtlarıyla çalışmayın.
+
+Çalıştırma: UYGULAMAYI_AC.bat
+Örnek hekim: hekim@demo.local / Demo12345!

@@ -1,0 +1,5 @@
+KİŞİSEL HEKİMİM 3.0 — AŞAMA 4
+3D Model / Planlama / Karşılaştır ekranları eklendi. Model şematiktir.
+Senaryo A ve B notları aktif vaka için mevcut /api/plan üzerinden SQLite veritabanına kaydedilir.
+Yalnızca kurgusal vakalarla kullanılmalıdır. Gerçek 3D rekonstrüksiyon veya klinik ölçüm yoktur.
+Windows: UYGULAMAYI_AC.bat

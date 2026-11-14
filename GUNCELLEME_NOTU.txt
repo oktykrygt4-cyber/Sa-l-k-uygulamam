@@ -1,0 +1,5 @@
+Kişisel Hekimim 3.0 — Hasta ana sayfası + giriş + 5 adımlı Check-up.
+Onaylanan giriş yapısı korunur; yeni hasta panelinde sol menü yoktur.
+Check-up bilgileri adımlar arasında korunur ve tamamlanınca hasta dosyasına kaydedilir.
+Yalnızca kurgusal veriler girin. Gerçek tıbbi analiz ve sağlık verisi güvenliği yoktur.
+Windows: UYGULAMAYI_AC.bat

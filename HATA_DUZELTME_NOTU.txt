@@ -1,0 +1,6 @@
+Hasta panelindeki boş ekran sorunu giderildi.
+Neden: render() mevcut olmayan #pageTitle elemanina yazmaya calisiyor, ardindan #content doldurulamiyordu.
+Cozum: pageTitle varsa guncelle, aksi halde kartlari cizmeye devam et.
+Tarayici onbellek temizligi icin JS surum etiketi degistirildi.
+Eski veri tabaniniz varsa demo.db dosyasini yeni klasore kopyalamadan once yedekleyin.
+Gercek hasta verisi kullanmayin.

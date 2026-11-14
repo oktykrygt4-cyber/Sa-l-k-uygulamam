@@ -1,0 +1,15 @@
+KİŞİSEL HEKİMİM 3.0 — AŞAMA 5: KONSÜLTASYON / HEKİM AĞI
+
+Aşama 1-4 dosyaları korunmuştur. Hekim panelinde Hekim Ağı veya Konsültasyon seçin.
+Üç sekme: Hekim Ağı · Konsültasyon · Yeni Talep.
+Kayıtlı yerel hekimler arasında bağlantı ve görüş talepleri gerçekten SQLite veritabanına kaydolur.
+Gelen isteği Kabul Et/Reddet, kabul edilen isteğe Görüşü Yanıtla kullanılabilir.
+Görüntülü görüşme seçimi yalnızca talep türüdür; gerçek video sistemi yoktur.
+Vaka referansı yalnızca koddur; dosyalar veya hasta kayıtları karşı hekime aktarılmaz.
+Hekim kimlik/uzmanlık doğrulaması YOKTUR. Demo klinik kullanım için değildir.
+
+NOT: En son onaylanan sol menüsüz yeni HEKİM ANA SAYFA görseli henüz uygulamaya kodlanmamıştır.
+Bu sürümün kapsamı yalnızca Aşama 5 Hekim Ağı/Konsültasyon sayfalarıdır.
+
+Giriş: hekim@demo.local / Demo12345!
+Başlat: UYGULAMAYI_AC.bat

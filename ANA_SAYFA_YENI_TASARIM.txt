@@ -1,0 +1,5 @@
+Kişisel Hekimim 3.0 — onaylanan yatay menülü hekim ana sayfası.
+Sabit sol menü kaldırıldı; menü ve kartlar gerçek modüllere gider.
+Aktif Vaka alanı yerel vaka kaydından okunur; görseldeki örnek hasta gerçekte üretilmez.
+Diğer 1–5. aşama modüllerine dokunulmadı.
+Yalnızca kurgusal verilerle çalıştırın.

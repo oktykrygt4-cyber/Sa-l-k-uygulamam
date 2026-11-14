@@ -1,0 +1,9 @@
+KİŞİSEL HEKİMİM 3.0 — AŞAMA 3
+
+1. Hekim ana sayfası gönderilen referans ekran temel alınarak güncellendi.
+2. Görüntü Analizi: SVG şema, katmanlar, saydamlık, yakınlaştırma, sekmeler ve inceleme işaretleri eklendi.
+3. Vaka dosyası seçimi ve önceki vaka kaydı, AI sohbeti, hasta/hekim girişleri korundu.
+4. Tıbbi görüntü gerçek analize tabi tutulmaz. DICOM kesit okuma veya segmentasyon bu sürümde yoktur.
+5. Kurgusal veriler dışında sağlık verisi kullanmayın.
+
+Çalıştırma: UYGULAMAYI_AC.bat

@@ -1,0 +1,22 @@
+KİŞİSEL HEKİMİM 3.0 — GÖRSEL DÜZENLEME / HEKİM AĞI GÜNCELLEMESİ
+
+Neler değişti?
+- Ana açılış sayfasındaki ikinci Hasta/Hekim Girişi düğme satırı kaldırıldı.
+- Onaylanan açılış görselinin üzerindeki iki giriş alanı tıklanabilir bırakıldı.
+- Hekim ana sayfasına belirgin, dengeli kartlar, daha okunaklı başlıklar ve bağlantılar eklendi.
+- Hekim Ağı: profesyonel profil kartları, isim/uzmanlık/şehir arama,
+  uzmanlık filtresi, profil ayrıntısı, bağlantılarım ve özel rehber sekmeleri.
+- Hekim ağı ve konsültasyon aynı yerel hekim hesaplarını kullanmaya devam eder.
+- Uygulamanın hasta tarafı, veritabanı, giriş/kayıt ve diğer modülleri korunur.
+
+ÖNEMLİ: Daha önceki klasörde verileriniz varsa demo.db dosyasını yedekleyin.
+Yeni uygulama klasörüne önceki demo.db dosyanızı KOPYALARSANIZ mevcut
+kayıtlarınız korunabilir. Yeni sürümü eski veritabanıyla kullanmadan önce
+yedek almanız önerilir. Bu ZIP temiz, veri içermeyen dağıtımdır.
+
+Hekim Ağı'nda diğer doktorları görmek için ikinci bir hekim hesabı oluşturun,
+profilindeki görünürlüğü diğer hekim hesaplarına açın. Profil doğrulaması
+henüz gerçek mesleki doğrulama değildir.
+
+Bu sürüm yalnızca kurgu / test verileri içindir. Gerçek hasta bilgisi girmeyin.
+Tıbbi karar desteği, gerçek DICOM segmentasyonu veya klinik simülasyon yoktur.
