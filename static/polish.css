@@ -1,0 +1,52 @@
+
+/* Kisisel Hekimim 3.0 — real responsive landing and polished panels */
+[hidden]{display:none!important}
+.landing-wrap{background:radial-gradient(ellipse at 15% 20%,#e9faf5 0%,transparent 42%),radial-gradient(ellipse at 90% 60%,#eaf3ff 0%,transparent 36%),#f9fcfc;min-height:100vh}
+.landing-wrap>.landing-top{padding:19px clamp(20px,5vw,75px);display:flex;gap:12px;align-items:center;font-size:17px}
+.landing-top .landing-logo{display:grid;place-items:center;background:#087d80;color:#fff;border-radius:13px;width:45px;height:45px;box-shadow:0 8px 20px #087d8030;font-size:27px}
+.landing-top b{font-size:18px;color:#174b50}.landing-top small{display:block;margin-top:4px;color:#7b9999;font-size:10px;letter-spacing:1.8px}
+.landing-version{margin-left:auto;border:1px solid #d2e9e4;border-radius:25px;padding:7px 12px;color:#5d8783;font-size:11px;background:white}
+.fresh-landing{max-width:1030px;width:calc(100% - 40px);margin:15px auto 15px;text-align:center}
+.fresh-landing .landing-kicker{display:inline-flex;align-items:center;gap:9px;border:1px solid #cbece5;border-radius:40px;background:#edf9f6;color:#087d80;padding:9px 16px;font-size:10px;font-weight:800;letter-spacing:1.2px}
+.landing-pulse{font-size:14px}.fresh-landing h1{font-size:clamp(30px,4.25vw,53px);font-weight:800;line-height:1.18;letter-spacing:-1.6px;color:#173f49;margin:21px auto 15px}
+.fresh-landing h1 em{font-style:normal;color:#087d80}.fresh-landing .fresh-lead{color:#6d858a;line-height:1.7;font-size:14px;max-width:680px;margin:0 auto}
+.landing-illustration{height:157px;width:100%;position:relative;overflow:hidden;margin:10px auto -3px;display:grid;place-items:center}
+.illustration-ring{position:absolute;border:1px solid #c9e9e3;border-radius:50%;width:210px;height:210px;background:#edf9f62d}.illustration-ring.ring-2{width:305px;height:305px;border-style:dashed;opacity:.65}
+.illustration-health{width:112px;height:112px;border-radius:29px;background:linear-gradient(135deg,#fff,#def3f1);border:1px solid #d6eeea;box-shadow:0 16px 40px #26656025;display:grid;place-items:center;position:relative;transform:rotate(-7deg)}.illustration-health span{font-size:69px;color:#0e9290;transform:rotate(7deg)}.illustration-health i{position:absolute;width:30px;height:30px;border-radius:50%;background:#d6eafa;border:6px solid white;right:-12px;top:10px}
+.float-badge{position:absolute;background:white;border:1px solid #e3efed;box-shadow:0 12px 30px #17474912;padding:11px 15px;border-radius:13px;color:#396f72;font-size:12px;font-weight:650}.float-left{left:21%;top:65px}.float-right{right:19%;top:35px}
+.landing-cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:850px;margin:10px auto 18px}
+.landing-role-card{position:relative;border:1px solid #dcebe9;min-height:190px;border-radius:23px;background:#fff;padding:25px;text-align:left;display:flex;gap:19px;align-items:flex-start;box-shadow:0 20px 55px #235f6614;transition:transform .18s,box-shadow .18s,border-color .18s;cursor:pointer}
+.landing-role-card:hover,.landing-role-card:focus-visible{transform:translateY(-4px);box-shadow:0 24px 65px #1c666927;border-color:#67c8b8;outline:none}
+.landing-role-icon{display:grid;place-items:center;flex:none;width:61px;height:61px;border-radius:18px;background:#e4f5f0;color:#087d80;font-size:35px}
+.doctor-role .landing-role-icon{background:#e7f1fe;color:#2875c1}
+.landing-role-copy{display:flex;flex-direction:column;align-items:start;gap:11px;min-height:138px;flex:1}
+.landing-role-copy strong{color:#153f47;font-size:24px;letter-spacing:-.6px}
+.landing-role-copy small{font-size:13px;color:#70858c;line-height:1.6;max-width:270px}
+.landing-role-cta{margin-top:auto;width:100%;background:#087d80;color:#fff;padding:12px 14px;border-radius:11px;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:space-between}
+.doctor-role .landing-role-cta{background:#2a75bd}
+.landing-disclaimer{color:#89999f;font-size:11px;line-height:1.6}
+.landing-footer{padding:12px 16px 20px;margin:0 auto;max-width:900px}
+.landing-wrap:has(.auth-screen:not([hidden])) .landing-top,.landing-wrap:has(.auth-screen:not([hidden])) .landing-hero,.landing-wrap:has(.auth-screen:not([hidden])) .landing-footer{display:none!important}
+.auth-screen:not([hidden]){display:block;width:min(1100px,calc(100% - 36px));margin:26px auto}
+.auth-screen .auth-card{background:#fff}
+.auth-screen .auth-card #terms label{display:flex;flex-direction:row;align-items:flex-start}
+.auth-screen .auth-card #terms input{flex:none;width:16px;height:16px}
+.auth-screen .auth-tabs button{cursor:pointer}
+/* Ensure every home card has its own visible surface */
+.app .main{background:#f7faf9}.app .sidebar{background:#fff;border-right:1px solid #e3eceb}
+.app .top{background:#fff;color:#173f49;min-height:93px;border-bottom:1px solid #e3eceb;box-shadow:0 2px 16px #124b4910}
+.app .top small{color:#81979b}.app .top h1{color:#173f49}
+.app .topright .online{color:#377961;background:#e6f7ef;padding:8px 12px;border-radius:30px;font-size:12px}
+.app .topright .iconbtn,.app .topright .avatar{background:#e8f5f2;color:#087d80;border:1px solid #d8eae6}
+.app .content{max-width:1330px;padding:28px 33px}
+.app .home-intro h2{font-size:29px}.app .main-hero{border-radius:20px;min-height:213px;box-shadow:0 14px 32px #087d8026}
+.app .feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.app .feature-card{background:#fff!important;border:1px solid #dbe8e6!important;border-radius:18px!important;min-height:149px!important;padding:22px!important;display:flex!important;align-items:flex-start!important;gap:16px!important;text-align:left!important;box-shadow:0 8px 26px #174b4b0d!important;opacity:1!important;visibility:visible!important}
+.app .feature-card:hover{border-color:#78c6b9!important;box-shadow:0 16px 34px #087d8021!important}
+.app .feature-icon{flex:none;width:56px!important;height:56px!important;background:#e6f6f2!important;color:#087d80!important;border-radius:15px;font-size:29px!important;display:grid!important;place-items:center}
+.app .feature-copy strong{font-size:16px!important;color:#20434b!important}.app .feature-copy small{color:#698088!important;font-size:12px!important}
+.app .home-section-head{margin:29px 0 14px}.app .active-work{border:1px solid #dce8e6;box-shadow:0 7px 25px #174b4b09}
+.app .navitem{min-height:42px}
+@media(max-width:980px){.app .content{padding:24px}.float-left{left:13%}.float-right{right:12%}}
+@media(max-width:750px){.landing-cards{grid-template-columns:1fr;max-width:500px}.landing-illustration{height:132px}.float-left{left:0}.float-right{right:0}.fresh-landing h1{letter-spacing:-.8px}.app .feature-grid{grid-template-columns:1fr}.app .main-hero{min-height:0}.app .home-intro{display:block}}
+@media(max-width:460px){.fresh-landing{width:calc(100% - 30px)}.landing-role-card{padding:17px;min-height:175px;gap:12px}.landing-role-icon{height:48px;width:48px;font-size:26px}.landing-role-copy strong{font-size:21px}.float-badge{display:none}.landing-illustration{height:125px}.landing-version{display:none}.app .topright{gap:5px}.app .topright .online{font-size:0;padding:7px}.app .feature-card{padding:15px!important}}

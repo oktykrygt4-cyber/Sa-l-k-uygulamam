@@ -1,0 +1,18 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kişisel Hekimim 3.0 | Giriş</title><link rel="stylesheet" href="/login-v9.css?v=9"></head>
+<body><main class="layout"><section class="showcase" aria-label="Kişisel Hekimim tanıtımı"><img src="/login_left.jpg" alt="Kişisel Hekimim 3.0 — Sağlık teknolojileri ve klinik asistan tasarımı"></section>
+<section class="right"><div class="login-card"><div class="eyebrow">KİŞİSEL HEKİMİM 3.0</div>
+<div class="role-tabs"><button type="button" data-role="doctor" class="active">♧ &nbsp; Hekim Girişi</button><button type="button" data-role="patient">♡ &nbsp; Hasta Girişi</button></div>
+<h1 id="roleTitle">Hekim Paneline Giriş</h1><p class="sub" id="roleDesc">Kişisel Hekimim 3.0'a hoş geldiniz.</p>
+<div class="auth-tabs"><button type="button" id="loginTab" class="active">Giriş Yap</button><button type="button" id="registerTab">Kayıt Ol</button></div>
+<form id="authForm" novalidate><div id="nameField" hidden><label>Ad soyad<input name="full_name" autocomplete="name" placeholder="Adınız soyadınız"></label></div>
+<div id="extraPatient" hidden><label>Doğum tarihi<input type="date" name="birth_date"></label><label>Telefon (isteğe bağlı)<input name="phone" type="tel" placeholder="05xx xxx xx xx"></label></div>
+<div id="extraDoctor" hidden><label>Unvan<select name="title"><option>Dr.</option><option>Uzm. Dr.</option><option>Dt.</option><option>Uzm. Dt.</option><option>Doç. Dr.</option><option>Prof. Dr.</option></select></label><label>Meslek<select name="profession"><option>Tıp Hekimliği</option><option>Diş Hekimliği</option></select></label><label>Uzmanlık (beyan)<input name="specialty" placeholder="Uzmanlık veya çalışma alanı"></label><small>Uzmanlık bilgileri doğrulanmış değildir.</small></div>
+<label class="field">E-posta adresiniz<input type="email" name="email" required autocomplete="username" placeholder="✉   E-posta adresiniz"></label>
+<label class="field">Şifreniz<span class="password-wrap"><input type="password" name="password" id="authPassword" minlength="8" required autocomplete="current-password" placeholder="♙   Şifreniz"><button type="button" id="togglePassword">Göster</button></span></label>
+<div id="repeatField" hidden><label>Şifre tekrar<input type="password" name="password_repeat" autocomplete="new-password" minlength="8" placeholder="Şifrenizi yeniden girin"></label></div>
+<div id="terms" hidden><label class="checkbox"><input type="checkbox" id="termsCheck"> Gerçek hasta verisi kullanmayacağımı kabul ediyorum.</label></div>
+<div class="extras"><label class="checkbox"><input type="checkbox" id="remember" checked> Beni hatırla</label><button type="button" id="forgot">Şifremi unuttum?</button></div>
+<p class="error" id="authError" role="alert" aria-live="polite"></p><button class="submit" id="submitAuth" type="submit">Giriş Yap &nbsp; →</button></form>
+<div class="demo"><span>Demo hesabıyla dene</span><button type="button" id="fillDemo">Hesabı doldur</button><small id="demoAccount">hekim@demo.local / Demo12345!</small></div>
+<div class="footer">🔒 Çevrim içi demo prototipi · Gerçek hasta bilgisi kullanmayın.<p>Kurumsal giriş ve gerçek kimlik doğrulama henüz etkin değildir.</p></div>
+</div></section></main><script src="/login-v9.js?v=9"></script><div style="position:fixed;z-index:9999;bottom:8px;right:8px;max-width:min(90vw,410px);padding:7px 12px;background:#103747;color:#fff;border-radius:12px;box-shadow:0 3px 15px #0002;font:12px/1.4 Arial,sans-serif">🧪 ÇEVRİM İÇİ DEMO · Paylaşılan örnek hesaplar · Gerçek sağlık verisi girmeyin.</div></body></html>

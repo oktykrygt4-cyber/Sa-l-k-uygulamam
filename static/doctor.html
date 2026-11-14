@@ -1,0 +1,16 @@
+<!doctype html><html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Kişisel Hekimim 3.0 — Yerel Demo</title><link rel="stylesheet" href="/style.css?v=20261114-6"><link rel="stylesheet" href="/polish.css?v=20261114-6"><link rel="stylesheet" href="/refined-v6.css?v=20261114-6"><link rel="stylesheet" href="/stage1-panel.css?v=s1-20261114"><link rel="stylesheet" href="/stage2.css?v=20261114a"><link rel="stylesheet" href="/stage3.css?v=20261114b"><link rel="stylesheet" href="/stage4.css?v=20261114">
+<link rel="stylesheet" href="/stage5.css?v=stage5-1"><link rel="stylesheet" href="/home-v7.css?v=20261114b"></head><body>
+<div class="app kh-v7-app"><main class="main kh-v7-main">
+<header class="top kh-v7-top">
+  <button class="kh-v7-menu" id="toggleNav" type="button" aria-label="Diğer bölümleri aç" aria-expanded="false">☰</button>
+  <div class="kh-v7-brand"><img src="/kh_icon.png" alt="Kişisel Hekimim logosu"><span><b>Kişisel Hekimim 3.0</b><small>HEKİM PANELİ</small></span></div>
+  <h1 id="pageTitle">Ana Sayfa</h1>
+  <div class="topright"><span class="online"><i></i> Çevrim içi</span><button class="iconbtn" data-page="settings" title="Ayarlar" aria-label="Ayarlar">⚙</button><button class="avatar" data-page="profile" title="Profilim" aria-label="Profilim">♙</button></div>
+</header>
+<div class="kh-v7-nav-wrap"><nav class="kh-v7-nav" id="nav" aria-label="Hekim bölümleri"></nav></div>
+<div class="kh-v7-more" id="khMore" hidden><button data-page="patients">Hastalarım</button><button data-page="reports">Uzman Raporları</button><button data-page="profile">Profilim</button><button data-page="settings">Ayarlar</button><button id="khCloseMore" type="button">Kapat ×</button></div>
+<div class="content" id="content"></div>
+<div class="kh-v7-footer-actions"><button class="btn outline" id="logout">← Çıkış Yap</button></div>
+<footer>Yerel prototip · Gerçek hasta verisi girmeyin. Klinik analiz ve tedavi sonucu üretmez.</footer>
+</main></div>
+<script src="/app.js?v=s5-home7-20261114"></script><script>document.getElementById("logout").onclick=async()=>{await fetch("/api/auth/logout",{method:"POST",headers:{"Content-Type":"application/json"},body:"{}"});location.href="/"};</script><div style="position:fixed;z-index:9999;bottom:8px;right:8px;max-width:min(90vw,410px);padding:7px 12px;background:#103747;color:#fff;border-radius:12px;box-shadow:0 3px 15px #0002;font:12px/1.4 Arial,sans-serif">🧪 ÇEVRİM İÇİ DEMO · Paylaşılan örnek hesaplar · Gerçek sağlık verisi girmeyin.</div></body></html>
